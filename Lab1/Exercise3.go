@@ -15,8 +15,6 @@ type Person struct {
 
 func inPerson(person *Person, nextId int) (int, error) {
 	fmt.Print("Enter your first name and last name: ")
-	// var name string
-	// var name2 string
 	_, err := fmt.Scanln(&person.firstName, &person.lastName)
 	if(err != nil){
 		return nextId, nil
