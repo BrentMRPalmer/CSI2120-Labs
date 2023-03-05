@@ -1,3 +1,7 @@
+// Write a function in Go that takes as input a float variable and returns two integer values.
+// One integer value which is the floor of the float value and the second integer value which
+// is the ceiling of the float value. Print the result to console.
+
 package main
 
 import (
